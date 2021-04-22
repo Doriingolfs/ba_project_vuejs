@@ -86,6 +86,22 @@ export default {
       phone: '',
       textarea: ''
     }
+  },
+  methods: {
+    handleSubmit () {
+      console.log('Titill:', this.type)
+      console.log('Fermetrar:', this.number)
+      console.log('Auka:', this.extra)
+      console.log('Annað Auka:', this.otherExtra)
+      console.log('Reglubundið:', this.frequent)
+      console.log('Tími:', this.time)
+      console.log('Dagur:', this.day)
+      console.log('Nafn:', this.name)
+      console.log('Netfang:', this.email)
+      console.log('Heimilisfang:', this.address)
+      console.log('Símanúmer:', this.phone)
+      console.log('Annað:', this.textarea)
+    }
   }
 }
 </script>

@@ -96,6 +96,7 @@ export default {
   },
   methods: {
     handleSubmit () {
+      console.log('Titill:', this.type)
       console.log('Fermetrar:', this.number)
       console.log('Auka:', this.extra)
       console.log('Annað Auka:', this.otherExtra)

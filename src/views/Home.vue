@@ -50,6 +50,15 @@ export default {
       phone: '',
       textarea: ''
     }
+  },
+  methods: {
+    handleSubmit () {
+      console.log('titill', this.type)
+      console.log('Nafn:', this.name)
+      console.log('Netfang:', this.email)
+      console.log('Símanúmer:', this.phone)
+      console.log('Annað:', this.textarea)
+    }
   }
 }
 
