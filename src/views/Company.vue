@@ -80,6 +80,7 @@ export default {
   name: 'Company',
   data () {
     return {
+      type: 'Fyrirtæki',
       number: '',
       extra: [],
       otherExtra: '',

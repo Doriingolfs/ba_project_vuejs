@@ -70,11 +70,11 @@
 </template>
 
 <script>
-import db from '../fb.js'
 export default {
   name: 'Homes',
   data () {
     return {
+      type: 'Heimili',
       number: '',
       extra: [],
       frequent: '',
@@ -85,24 +85,6 @@ export default {
       address: '',
       phone: '',
       textarea: ''
-    }
-  },
-  methods: {
-    handleSubmit () {
-      const project1 = {
-        fermetrar: this.number,
-        auka: this.extra,
-        regla: this.frequent,
-        timi: this.time,
-        dagur: this.day,
-        nafn: this.name,
-        heimili: this.address,
-        simi: this.phone,
-        annad: this.textarea
-      }
-      db.collection('projects').add("test").then(() => {
-        console.log('added to db')
-      })
     }
   }
 }

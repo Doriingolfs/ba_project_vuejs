@@ -80,6 +80,7 @@ export default {
   name: 'Housing',
   data () {
     return {
+      type: 'Húsfélög',
       number: '',
       extra: [],
       otherExtra: '',
